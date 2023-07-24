@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+**YouTube Clone with React.js and Tailwind CSS**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a YouTube clone web application built using React.js and Tailwind CSS. It allows users to watch videos, search for videos, and view video details.
 
-## Available Scripts
+**Features**
 
-In the project directory, you can run:
+=> Home Page: Displays a list of trending videos and recommended videos.
+=> Video Player: Allows users to watch videos with controls like play, pause, volume, and full-screen.
+=> Search: Users can search for videos using keywords.
+=> Video Details: Provides information about the selected video, such as title, description, views, likes, and comments.
+=> Responsive Design: The application is fully responsive and works well on different devices.
 
-### `npm start`
+**Technologies Used**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+=> React.js: A JavaScript library for building user interfaces.
+=> Tailwind CSS: A utility-first CSS framework for quickly building custom designs.
+=> YouTube Data API: Used to fetch videos and related information from YouTube.
+=> Axios: A popular HTTP client for making API requests.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Installation**
 
-### `npm test`
+Clone the repository to your local machine.
+Navigate to the project directory using the terminal.
+Install the required dependencies by running the following command:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm install
 
-### `npm run build`
+**Usage**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+On the Home Page, you can see a list of trending and recommended videos.
+Use the search bar to search for videos based on keywords.
+Click on a video thumbnail to watch the video on the Video Player page.
+On the Video Player page, you can control video playback, volume, and full-screen mode.
+The Video Details page provides information about the selected video, such as title, description, views, likes, and comments.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Credits**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The YouTube Data API is provided by RAPID API.
+The video data used in this project is fetched from YouTube using the YouTube Data API.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-### `npm run eject`
+**Acknowledgements**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The project was inspired by YouTube.
+Special thanks to the creators of React.js and Tailwind CSS for their amazing tools and libraries.
